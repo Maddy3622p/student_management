@@ -4,5 +4,8 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import './styles.css';
 import './pages/pages.css';
+import './theme.css';
+import './workspace-theme.css';
+import './motion.css';
 
 createRoot(document.getElementById('root')).render(<React.StrictMode><BrowserRouter><App /></BrowserRouter></React.StrictMode>);
